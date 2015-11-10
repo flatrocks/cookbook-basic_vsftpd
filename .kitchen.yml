@@ -1,0 +1,41 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[basic_vsftpd::default]
+    attributes:
+  - name: chroot_list
+    run_list:
+      - recipe[basic_vsftpd::default]
+      - recipe[basic_vsftpd::chroot_list]
+    attributes:
+      basic_vsftpd:
+        chroot_list:
+          - chroot1
+          - chroot2
+  - name: userlist
+    run_list:
+      - recipe[basic_vsftpd::default]
+      - recipe[basic_vsftpd::userlist]
+    attributes:
+      basic_vsftpd:
+        userlist:
+          - user1
+          - user2
+  - name: user_conf_resource
+    run_list:
+      - recipe[basic_vsftpd::default]
+      - recipe[basic_vsftpd::_user_conf_resource]
+    attributes:
+      basic_vsftpd:
+        config:
+          user_config_dir: /etc/vsftpd/users

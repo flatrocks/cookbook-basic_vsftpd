@@ -96,4 +96,4 @@ __Code:__
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Author: Tom Wilson (tom at rollnorocks.com)

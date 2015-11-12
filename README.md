@@ -1,5 +1,6 @@
 basic_vsftpd Cookbook
 =====================
+[![Build Status](https://travis-ci.org/flatrocks/cookbook-basic_vsftpd.svg?branch=master)](https://travis-ci.org/flatrocks/cookbook-basic_vsftpd)
 
 A basic cookbook to install and configure the vsftpd package.
 

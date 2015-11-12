@@ -1,6 +1,10 @@
 basic_vsftpd CHANGELOG
 ======================
 
+0.1.2
+-----
+- Updates to metadata comments for supermarket
+
 0.1.1
 -----
 - Added Travis CI support

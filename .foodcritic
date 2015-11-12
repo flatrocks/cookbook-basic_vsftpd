@@ -1,0 +1,2 @@
+# prevent spurious warning for chef 12.5 resource
+~FC016

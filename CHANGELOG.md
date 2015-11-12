@@ -1,11 +1,14 @@
 basic_vsftpd CHANGELOG
 ======================
 
-This file is used to list changes made in each version of the basic_vsftpd cookbook.
+0.1.1
+-----
+- Added Travis CI support
+- Cosmetic changes to license, headers, and readme.
 
 0.1.0
 -----
-- [your_name] - Initial release of basic_vsftpd
+- Initial release of basic_vsftpd
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

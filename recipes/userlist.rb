@@ -2,7 +2,7 @@
 # Cookbook Name:: basic_vsftpd
 # Recipe:: userlist
 #
-# Copyright 2015, Roll No Rocks llc
+# Copyright (C) 2015, Tom Wilson
 #
 # All rights reserved - Do Not Redistribute
 #

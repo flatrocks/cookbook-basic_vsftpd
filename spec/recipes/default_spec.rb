@@ -12,6 +12,10 @@ describe 'basic_vsftpd::default' do
 
   describe 'the vsftpd.conf file' do
     let(:config_file) {'/etc/vsftpd.conf'}
+    let(:config_orig) {'/etc/vsftpd.conf.orig'}
+    it 'original contents are copied' do
+      expect(subject).to create_remote_file_if_missing(config_orig)
+    end
     it 'is created' do
       expect(subject).to create_template(config_file)
     end

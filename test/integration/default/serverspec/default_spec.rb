@@ -7,6 +7,10 @@ describe service('vsftpd') do
   it { should be_running }
 end
 
+describe file('/etc/vsftpd.conf.orig') do
+  it { should be_file }
+end
+
 describe file('/etc/vsftpd.conf') do
   it { should be_file }
   it { should contain('chroot_list_file=/etc/vsftpd.chroot_list')}

@@ -1,6 +1,14 @@
 basic_vsftpd CHANGELOG
 ======================
 
+0.1.4
+-----
+- README update only
+
+0.1.3
+-----
+- Keep original vsftpd.conf file on system for reference
+
 0.1.2
 -----
 - Updates to metadata comments for supermarket

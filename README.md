@@ -18,7 +18,8 @@ Testing/adding support for other platforms is encouraged.  See [Contributing](#c
 ### default
 This recipe:
 * installs the vsftpd package
-* creates the vsftpd.conf configuration file
+* renames the original vsftpd.conf file to vsftpd.conf.orig for reference
+* creates a new vsftpd.conf configuration file
 from ```node['basic_vsftpd']['config']['...']``` attributes
 * if ```node['basic_vsftpd']['config']['user_config_dir']``` is set, creates an empty user config directory
 * enables and starts the ```vsftpd``` service

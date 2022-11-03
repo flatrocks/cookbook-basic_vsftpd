@@ -1,5 +1,9 @@
 basic_vsftpd Cookbook
 =====================
+
+**NOTE: OUR ORGANIZATION NO LONGER USES CHEF FOR DEPLOYMENT, SO WE ARE NOT PROVIDE SUPPORT OR UPDATES TO THIS COOKBOOK.**
+**I'M VERY HAPPY TO TURN IT OVER TO ANYONE WHO HAS AN INTEREST IN SUPPORTING AND USING IT.**
+
 [![Build Status](https://travis-ci.org/flatrocks/cookbook-basic_vsftpd.svg?branch=master)](https://travis-ci.org/flatrocks/cookbook-basic_vsftpd)
 
 A basic cookbook to install and configure the vsftpd package.
